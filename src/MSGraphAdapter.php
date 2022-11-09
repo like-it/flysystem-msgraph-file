@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Skinka\FlysystemMSGraph;
+namespace LikeIt\FlysystemMSGraph;
 
 
 use GuzzleHttp\Exception\ClientException;
@@ -14,7 +14,7 @@ use Microsoft\Graph\Model\DriveItem;
 
 /**
  * Class MSGraphAdapter
- * @package Skinka\FlysystemMSGraph
+ * @package LikeIt\FlysystemMSGraph
  */
 class MSGraphAdapter extends AbstractAdapter
 {
