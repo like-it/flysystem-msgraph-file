@@ -7,7 +7,7 @@ This package contains a [Flysystem](https://flysystem.thephpleague.com/) adapter
 You can install the package via composer:
 
 ``` bash
-composer require skinka/flysystem-msgraph-files
+composer require like-it/flysystem-msgraph-files
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ The first thing you need to do is create an application at [Azure](https://docs.
 
 ``` php
 use League\Flysystem\Filesystem;
-use Skinka\FlysystemMSGraph\MSGraphAdapter;
+use LikeIt\FlysystemMSGraph\MSGraphAdapter;
 
 $filesystem = new Filesystem(new MSGraphAdapter($clientId, $clientSecret, $tenantId, $prefix));
 ```
